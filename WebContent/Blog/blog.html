@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ================== Basics =================== -->
+  <title>Blog List</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="font/mdi-font/css/material-design-iconic-font.min.css">
+  <!-- ================== Font =================== -->
+  <link rel="stylesheet" type="text/css" href="font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="font/mdi-font/css/material-design-iconic-font.min.css">
+  <!-- ================== Vendor CSS =================== -->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap4/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/animate.css">
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/owl.theme.default.min.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+
+<body>
+ <div id="page-loader">
+    <div class="page-loader__inner">
+        <div class="page-loader__spin"></div>
+    </div>
+  </div>
+  <!-- End Page Loader -->
+  <!-- Page Wrap -->
+  <div class="page-wrap">
+    <!-- Header Stick -->
+    <header class="header-stick header-stick--dark">
+      <div class="container clearfix">
+        <h1 class="logo pull-left">
+          <a href="../">
+            <img alt="Logo" src="img/logo-white.png">
+          </a>
+        </h1>
+        <nav class="menu-desktop pull-right">
+          <ul class="ul--inline ul--no-style">
+            <li class="li-has-sub">
+              <a href="../">
+                Home
+              </a>
+            </li>
+            
+            <li class="li-has-sub">
+              <a href="#">
+                Services
+              </a>
+              <ul class="sub-menu ul--no-style">
+                <li>
+                  <a href="../construction">
+                    Construction
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Interiors
+                  </a>
+                </li>
+                <li>
+                  <a href="../property">
+                    Property Management
+                  </a>
+                </li>
+                <li>
+                  <a href="../advisory">
+                    Advisory
+                  </a>
+                </li>
+              </ul>
+            </li>
+<li>
+              <a href="#">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#contact-form">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header Stick -->
+    <!-- Header Mobile -->
+    <header class="header-mobile">
+      <div class="container clearfix">
+        <h1 class="logo pull-left">
+          <a href="../">
+            <img alt="Logo" src="img/logo-black.png">
+          </a>
+        </h1>
+        <a class="menu-mobile__button">
+          <i class="fa fa-bars"></i>
+        </a>
+        <nav class="menu-mobile hidden">
+          <ul class="ul--no-style">
+            <li>
+              <i class="fa  menu-mobile__more"></i>
+              <a href="index.html">
+                Home
+              </a>
+            </li>
+            
+            <li>
+              <i class="fa fa-plus menu-mobile__more"></i>
+              <a href="#">
+                Services
+              </a>
+              <ul class="ul--no-style hidden">
+                <li>
+                  <a href="../construction">
+                   Construction
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Interiors
+                  </a>
+                </li>
+                <li>
+                  <a href="../property">
+                    Property Management
+                  </a>
+                </li>
+                <li>
+                  <a href="../advisory">
+                    Advisory
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#contact-form">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header Mobile -->
+    <!-- Header Desktop -->
+    <header class="header-desktop header2 header--bg-dark">
+      <div class="container clearfix">
+        <h1 class="logo pull-left">
+          <a href="../">
+            <img alt="Logo" src="img/logo-white.png">
+          </a>
+        </h1>
+
+        <nav class="menu-desktop menu-desktop--show pull-right">
+          <ul class="ul--inline ul--no-style">
+            <li class="li-has-sub">
+              <a href="../">
+                Home
+              </a>
+            </li>
+          
+            <li class="li-has-sub">
+              <a href="#">
+                Services
+              </a>
+              <ul class="sub-menu ul--no-style">
+                <li>
+                  <a href="../construction">
+                    Construction
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Interiors
+                  </a>
+                </li>
+                <li>
+                  <a href="../property">
+                    Property Management
+                  </a>
+                </li>
+                <li>
+                  <a href="../advisory">
+                    Advisory
+                  </a>
+                </li>
+              </ul>
+            </li>
+           <li>
+              <a href="#">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#contact-form">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header Mobile -->
+    <!-- Navigation -->
+    <section class="navigation">
+      <div class="parallax parallax--nav-3">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-md-12">
+             <!--  <h2>
+                blog detail
+              </h2> -->
+             <!--  <ul class="breadcrumbs ul--inline ul--no-style">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <span>/</span>
+                <li>
+                  <a href="">Blogs</a>
+                </li>
+                <span>/</span>
+                <li class="active">
+                  Blog Detail
+                </li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Navigation -->
+    <!-- Blog Detail -->
+    <section class="blog-detail">
+      <div class="container">
+        <div id="isotope-grid" class="clearfix">
+          <div class="col-md-6 item design">
+            <div class="blog-item">
+              <div class="img-blog">
+                <a href="#">
+                  <img alt="Blog 1" src="img/blog-14.jpg">
+                </a>
+              </div>
+              <div class="blog-content">
+                <h4 class="blog-title">
+                  <a href="">Signing a lease agreement? Things you need to know…   </a>
+                </h4>
+               <p class="blog-meta">
+                  <em class="author">Hemant Kothari</em>
+                  <em class="cate">Company Secretary</em>
+                  <em class="time">Nov 09,2018</em>
+                </p>
+                <p>
+                  Almost everybody at some point in his/her life has to deal with lease/rent agreement. Therefore, it’s pertinent to know the basics of a lease agreement before one enters into such an agreement.
+                   <div class="see-more">
+                    <a href="#lease-content" class="au-btn au-btn--big au-btn--pill au-btn--yellow au-btn--white">See
+                      More</a>
+                  </div>
+                </p>
+              
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <!-- End Item -->
+          <div class="col-md-6 item exper">
+            <div class="blog-item">
+              <div class="img-blog">
+                <a href="#">
+                  <img alt="Blog 2" src="img/blog-15.jpg">
+                </a>
+              </div>
+              <div class="blog-content">
+                <h4 class="blog-title">
+                  <a href="">Property Tax- Bangalore </a>
+                </h4><br>
+                <p class="blog-meta">
+                  <em class="author">Hemant Kothari</em>
+                  <em class="cate">Company Secretary</em>
+                  <em class="time">Nov 18,2018</em>
+                </p>
+                <p>
+                  As responsible citizens, we are expected to pay our taxes-honestly and on time!<br>
+After you have acquired the property i.e. flat in an apartment, independent house, commercial space or vacant land, the next wise thing to do is to pay the property tax.
+                    <div class="see-more">
+                    <a href="#property-tax-content" class="au-btn au-btn--big au-btn--pill au-btn--yellow au-btn--white">See
+                      More</a>
+                  </div>
+                </p>
+              </div>
+            </div>
+              <hr>
+          </div>
+
+
+          <!-- End Item -->
+         
+          <!-- End Item -->
+        </div>
+        <div class="row" id="lease-content" style="margin-top: 70px;">
+          <div class="col-lg-8 col-md-7">
+            <!-- <div class="blog-thumb">
+              <img alt="Blog 1" src="img/blog-111.jpg">
+            </div> -->
+            <!-- <h4 class="blog-title">
+              Lease
+            </h4> -->
+           <!--  <p class="blog-meta">
+              <em class="author"> Hemant Kothari </em>
+              <em class="cate">Country Secretary  </em>
+              <em class="time">www.plazacenters.com </em>
+            </p> -->
+            <div class="blog-content">
+             <!--  <p class="m-t-20">
+                Almost everybody at some point in his/her life has to deal with lease/rent agreement. Therefore, it’s pertinent to know the basics of a lease agreement before one enters into such an agreement.
+              </p> -->
+             <h4 class="blog-title">
+              What is a Lease?
+            </h4>
+              <p class="m-b-20">
+                Section 105 of the Transfer of Property Act, 1882 defines lease of immovable property as follows:
+A lease of immovable property is a transfer of a right to enjoy such property, made for a certain time, in consideration of a price to be rendered periodically or on specified occasions to the transferor by the transferee, who accepts the transfer on such terms.
+The transferor is called the lessor, the transferee is called the lessee and the money to be rendered is called the rent.
+In other words, under a lease agreement the lessor transfers certain rights on the property to the transferee while delivering the physical possession of the property to the lessee for a specified period, for a specified purpose and against payment of a specified rent.
+
+              </p>
+              <h4 class="blog-title">
+             How to make a lease- only by a written Agreement?
+            </h4>
+              <p>
+                Section 107 of the Transfer of Property Act, 1882 specifies how leases are to be made:
+A lease of immovable property exceeding more than a year can be made only by a registered instrument.
+All other leases of immovable property may be made either by a registered instrument or by oral agreement accompanied by delivery of possession.
+Therefore, legally it is possible to do lease by oral understanding accompanied by delivering the possession of the property to the lessee- though not advisable for obvious reasons!
+
+              </p>
+                <h4 class="blog-title">
+              When does the lease period commences- Date of possession? Date of agreement?
+            </h4>
+              <p>
+                Section 110 of the Transfer of Property Act, 1882 clarifies this aspect in the following words:
+Where the time limited by a lease of immovable property is expressed as commencing from a particular day, in computing that time such day shall be excluded.
+
+
+              </p>
+               <h4 class="blog-title">
+             Basics of a lease agreement
+            </h4>
+              <p>
+              <b> a. </b>Particulars of the lessors and the lessee- Name, address, age etc., One should also do a prelimary check to determine that the lessor is the owner of the property. This can done by seeking from the lessor a copy of the current year property tax receipt, previous month electricity bill, water bill, etc.;
+
+
+              </p>
+              <p>
+             <b> b. </b> Particulars of the property- complete postal address of the property, area covered, fixtures in the property, etc. ;
+              </p>
+              <p>
+           <b> c. </b> Rent- The monthly rent to be mentioned and whether it is inclusive of maintenance charges or not, who will bear the taxes etc.;
+
+
+              </p>
+              <p>
+              <b> d. </b> Duration- The period for which the property is taken/given on lease and if there is a option to renew at the end of the lease period;
+
+              </p>
+              <p>
+            <b> e. </b> Escalation- Whether the rent will be increased  on renewal and if so what would be the percentage increase;
+
+              </p>
+              <p>
+             <b> f. </b> Deposit- Quantum of deposit. Whether it is free of interest or not , whether it will be adjusted towards rent and the refund of the same;
+
+
+              </p>
+              <p>
+             <b> g. </b> Purpose- The purpose for which the property is being leased- residential or commercial. Further, the lessee has or does not have the right to sub-let the property should be mentioned.
+
+              </p>
+              <p>
+            <b> h. </b> Termination- How the lease is to be terminated i.e., on expiry of a specified time period say 11 months. If pre closure, than how many months notice to be given. 
+
+              </p>
+               <h4 class="blog-title">
+              Is it mandatory to register a lease agreement?
+            </h4>
+              <p>
+               Section 17 of the Registration Act, 1908 provides that lease of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent is required to be compulsory registered.
+It is because this, lease agreements are generally made for a period of 11 months to save on the stamp duty and registration costs.
+
+
+              </p> <h4 class="blog-title">
+              Consequences of non registration
+            </h4>
+              <p>
+                If the lease deed required to be registered as per aforesaid section 17 of the Registration act is not registered than it will lead to serious following consequences as specified in section 49 of the Registration Act <br>
+<b> a. </b>  affect any immovable property comprised therein, or <br>
+<b> b. </b>  confer any power to adopt, or  <br>
+<b> c. </b>  be received as evidence of any transaction affecting such property or conferring such power.<br>
+For example, Mr. A has given his house on lease for 3 years to Mr. B. On expiry of 3 years Mr. B refuses to vacate the house. Can Mr. A produce his lease agreement as evidence of the fact that Mr. B had agreed to vacate the house after 3 years-No? In effect, he has no remedy before law and cannot seek legal recourse unless the lease agreement is registered.  
+
+
+
+              </p>
+                <h4 class="blog-title">
+             Stamp Duty on lease agreement
+            </h4>
+              <p>
+              From the above, it would be clear that lease agreement for more than 11 months which require compulsory registration are the ones to be sufficiently stamped with prescribed stamp duty and registered on payment of registration charges. Each state has its own rate of duty and registration charges. However, the amount of duty would be dependent on the number of years for which the lease is granted and the total rent to be paid during the lease period.  
+
+
+              </p> 
+
+
+            </div>
+            <hr>
+             <!--  <div class="blog-thumb">
+              <img alt="Blog 1" src="img/blog-11.jpg">
+            </div> -->
+
+            <h4 class="blog-title" id="property-tax-content" style="margin-top: 65px;">
+              Property Tax - Bangalore
+            </h4>
+           <p class="blog-meta">
+                  <em class="author">Hemant Kothari</em>
+                  <em class="cate">Company Secretary</em>
+                  <em class="time">Nov 18,2018</em>
+                </p>
+            <div class="blog-content" >
+            <!--   <p class="m-t-20">
+                As responsible citizens, we are expected to pay our taxes-honestly and on time!<br>
+After you have acquired the property i.e. flat in an apartment, independent house, commercial space or vacant land, the next wise thing to do is to pay the property tax.
+
+              </p> -->
+             <h4 class="blog-title">
+             Practical tips for payment of Property tax
+            </h4>
+              <p class="m-b-20">
+               <b>1. </b>  Find the BBMP office having jurisdiction on your property. Meet the concerned officer along with a copy of your sale deed and check the process and documents required. In general, an application on plain paper is to be made and submitted along with a copy of the sale deed and original encumbrance certificate for last 10 years. Encumbrance certificate can be obtained from the office of the sub- registrar having jurisdiction on the property.</p>
+<p class="m-b-20"><b>2. </b>  If you have purchased a ready to move flat, than be prepared to pay the tax for prior years as well. Property tax meter starts ticking from the date of issuance of the completion certificate or occupancy certificate, whichever is earlier. Of course, you have the choice of not paying and asking the developer to pay the property tax for the period prior to your purchase but then your application for property tax will not be processed till the developer clears the prior year’s tax. Remember. There is a penaly of 2% per month for delayed payment.</p>
+<p class="m-b-20"><b>3. </b>   Once your application is processed, the challan will be generated and the tax can be paid online or in cash or DD into the designated branches of specified banks i.e., HDFC, ICICI, Axis or Canara Bank.</p>
+<p class="m-b-20"><b>4. </b>   About 2 days after the payment, the receipts can be downloaded from the BBMP website.</p>
+<p class="m-b-20"><b>5. </b>   Property tax period starts from 1st April of each year and ends on 31st March of subsequent year.</p>
+
+<p class="m-b-20"><b>6. </b>   Rebate of 5% of the property tax amount is available if the tax is paid by 30th April.</p>
+For further information 
+<a href="https://bbmptax.karnataka.gov.in/" target="_blank" class="click-link"> Click here</a>
+
+
+              </p>
+             
+
+
+            </div>
+          <!--   <div class="blog-footer">
+              <div class="container clearfix">
+                <div class="tags pull-left m-l-20">
+                  <span>Tags: </span>
+                  <a href="#">Art Deco</a>,
+                  <a href="#">Minimalist Style</a>
+                </div>
+                <div class="share pull-right">
+                  <a href="#">
+                    <i class="zmdi zmdi-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="zmdi zmdi-dribbble"></i>
+                  </a>
+                  <a href="#">
+                    <i class="zmdi zmdi-google"></i>
+                  </a>
+                  <a href="#">
+                    <i class="zmdi zmdi-twitter"></i>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+          <!--   <div class="cmt-area">
+              <h4 class="cmt-title">
+                2 Comments
+              </h4>
+              <ul class="cmt-list ul--no-style">
+                <li class="clearfix">
+                  <div class="user-img pull-left">
+                    <img alt="User 1" src="img/testi-01.jpg">
+                  </div>
+                  <div class="cmt-right">
+                    <h5>
+                      Anthony Lee
+                    </h5>
+                    <div class="cmt-date">
+                      <em>
+                        Nov 24, 2017
+                      </em>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure at nulla pariatur.
+                    </p>
+                    <div class="cmt-reply">
+                      <a href="#">
+                        Reply
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="children clearfix">
+                  <div class="user-img pull-left">
+                    <img alt="User 2" src="img/testi-03.jpg">
+                  </div>
+                  <div class="cmt-right">
+                    <h5>
+                      Mike Song
+                    </h5>
+                    <div class="cmt-date">
+                      <em>
+                        Nov 25, 2017
+                      </em>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure at nulla pariatur.
+                    </p>
+                    <div class="cmt-reply">
+                      <a href="#">
+                        Reply
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <div class="user-img pull-left">
+                    <img alt="User 3" src="img/testi-04.jpg">
+                  </div>
+                  <div class="cmt-right">
+                    <h5>
+                      Bill Tuner
+                    </h5>
+                    <div class="cmt-date">
+                      <em>
+                        Nov 28, 2017
+                      </em>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure at nulla pariatur.
+                    </p>
+                    <div class="cmt-reply">
+                      <a href="#">
+                        Reply
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div> -->
+            <div class="cmt-leave">
+              <h4 class="cmt-title">Leave a comment</h4>
+              <form action="" method="post">
+                <textarea placeholder="Text here..."></textarea>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="name" placeholder="Your name">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" name="email" placeholder="Your Email">
+                  </div>
+                </div>
+                <div class="send-cmt">
+                  <button type="submit" class="au-btn au-btn--yellow au-btn--pill au-btn--big">
+                    Send Comment
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5">
+            <div class="blog-sidebar">
+              <div class="blog__search">
+                <form action="" method="get" role="search" class="search-form">
+                  <input type="text" name="search" placeholder="Search here...">
+                  <button type="submit">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="blog__about">
+                <h4 class="title-sidebar">
+                  about
+                </h4>
+                <p>
+                  Agastiyan Home Innovations Private Limited is an ISO 9001 : 2015 certified Company operating in the verticals of Construction, Interiors, Property Management, Advisories and allied Trading activities.
+
+We believe in delivering quality products and services to all our customers. We understand the hassles faced by customers in reality sector for which we have all the needed solutions.
+
+Our Core values and commitments are being Ethical, Efficient and Environmentally sensitive.
+
+Our strengths are Professional Services, Transparency, Value Preposition and One stop solution.
+
+Innovation, Information Technology and Industry best practices are the driving force for all our organizational and operational processes.
+                </p>
+              </div>
+<!--               <div class="blog__recent">
+                <h4 class="title-sidebar">
+                  Recent Post
+                </h4>
+                <div class="blog__recent-item clearfix">
+                  <div class="img pull-left">
+                    <a href="#">
+                      <img alt="Blog Thumb 1" src="img/blog-item-01.jpg">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <h6>
+                      <a href="#">
+                        details are the key of interior
+                      </a>
+                    </h6>
+                    <p>
+                      <em>November , 24 , 2017</em>
+                    </p>
+                  </div>
+                </div> -->
+                <!-- End Blog recent item -->
+<!--                 <div class="blog__recent-item clearfix">
+                  <div class="img pull-left">
+                    <a href="#">
+                      <img alt="Blog Thumb 2" src="img/blog-item-02.jpg">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <h6>
+                      <a href="#">
+                        morden interior and human ability
+                      </a>
+                    </h6>
+                    <p>
+                      <em>November , 15 , 2017</em>
+                    </p>
+                  </div>
+                </div> -->
+                <!-- End Blog recent item -->
+<!--                 <div class="blog__recent-item clearfix">
+                  <div class="img pull-left">
+                    <a href="#">
+                      <img alt="Blog Thumb 3" src="img/blog-item-03.jpg">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <h6>
+                      <a href="#">
+                        5 things you need to fix your room
+                      </a>
+                    </h6>
+                    <p>
+                      <em>November , 24 , 2017</em>
+                    </p>
+                  </div>
+                </div> -->
+                <!-- End Blog recent item -->
+              </div>
+             <!--  <ul class="blog__cate ul--no-style">
+                <h4 class="title-sidebar">
+                  category
+                </h4>
+                <li>
+                  <a href="">
+                    Design Knowledge
+                    <span>
+                      <em>(25 posts)</em>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Tricks and Tips
+                    <span>
+                      <em>(12 posts)</em>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Interior Experiences
+                    <span>
+                      <em>(21 posts)</em>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Q&A
+                    <span>
+                      <em>(09 posts)</em>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+ -->             <!--  <div class="blog__tag-wrap">
+                <h4 class="title-sidebar">
+                  tags
+                </h4>
+                <div class="blog__tag">
+                  <a href="#">
+                    Art deco
+                  </a>
+                  <a href="#">
+                    Architecture
+                  </a>
+                  <a href="#">
+                    ARC
+                  </a>
+                  <a href="#">
+                    Famous Building 2017
+                  </a>
+                  <a href="#">
+                    Au Creative
+                  </a>
+                  <a href="#">
+                    Resort
+                  </a>
+                  <a href="#">
+                    Minimalist style
+                  </a>
+                  <a href="#">
+                    MH
+                  </a>
+                </div>
+              </div>
+ -->            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blog Detail -->
+   <!-- Footer -->
+  <section id="contact-form">
+    <footer class="footer-2">
+      <div class="overlay overlay--dark">
+      </div>
+      <div class="parallax parallax--footer">
+        <div class="container">
+          <div class="row justify-content-center">
+               <div class="col-lg-3 col-sm-7">
+                        <div class="footer_item">
+                            <h4>India</h4>
+                            <ul class="list-unstyled footer_contact">
+                                <li>
+                                  <a href="">
+                                    <span class="fa fa-map-marker"></span> 
+                                    SFA 12, Gopalan Signature Mall,<br>
+                    Old Madras Road, Bengaluru
+                  </a>
+                </li>
+                                <li>
+                                  <a href="">
+                                    <span class="fa fa-mobile"></span>
+                                    +919606555100
+                                  </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-7">
+                        <div class="footer_item">
+                            <h4>Israel</h4>
+                            <ul class="list-unstyled footer_contact">
+                                <li>
+                                  <a href="">
+                                    <span class="fa fa-map-marker"></span> 
+                                    Simtat noga 6, Hod Hasahron,<br>Israel
+                  </a>
+                </li>
+                                <li>
+                                  <a href="">
+                                    <span class="fa fa-mobile"></span>
+                                    +972545448732
+                  </a>
+                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="footer_item">
+                            <h4>Mail Us</h4>
+                            <ul class="list-unstyled footer_contact">
+                                <li><a href=""><span class="fa fa-envelope"></span> agastiyan@agastiyan.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-sm-7">
+                        <div class="footer_item">
+                            <h4>Social</h4>
+                            <ul class="list-inline footer_social_icon">
+                                <li><a href="https://www.facebook.com/AgastiyanHomes"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="https://twitter.com/AgastiyanHIPL"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="https://www.linkedin.com/company/agastiyan"><span class="fa fa-linkedin"></span></a></li>
+                            <li><a href="https://youtu.be/yC0OpfDma_s"><span class="fa fa-youtube"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>    
+    </section>
+    
+    <!-- End Footer -->
+    <!-- Copyright -->
+    <section class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            Copyright © 2018 Designer by
+            <span>Agastiyan Home Innovations Pvt. Ltd</span> . All rights reserved
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Copyright -->
+    <!-- Back to top -->
+    <a href="" id="btn-to-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+    <!-- End Back to top -->
+  </div>
+
+
+  <!-- =================== PLUGIN JS ==================== -->
+  <script src="vendor/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="vendor/jquery-migrate-3.0.0.min.js" type="text/javascript"></script>
+  <script src="vendor/wow/wow.min.js" type="text/javascript"></script>
+  <script src="vendor/bootstrap4/popper.min.js" type="text/javascript"></script>
+  <script src="vendor/bootstrap4/bootstrap.min.js" type="text/javascript"></script>
+  <script src="vendor/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+
+  <!-- =================== CUSTOM JS ==================== -->
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

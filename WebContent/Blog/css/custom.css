@@ -1,0 +1,63 @@
+.company-motto {
+	
+	color:#ffcb0f;
+	font-weight: bold;
+}
+
+.footer_item > h4 {
+    color: #fff;
+    font-family: "futura_ltbook",sans-serif;
+    font-size: 21px;
+    margin-bottom: 34px;
+    text-transform: inherit;
+}
+
+.list-unstyled.post, .list-unstyled.footer_contact {
+    margin-top: -14px;
+}
+
+.list-unstyled.post > li, .list-unstyled.footer_contact > li {
+    padding: 14px 0;
+    overflow: hidden;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.list-inline.footer_social_icon {
+    margin: 32px 0 0;
+}
+
+.footer_social_icon .fa {
+    background: #ffcb0f none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #222;
+    font-size: 20px;
+    height: 45px;
+    padding: 12px;
+    text-align: center;
+    width: 45px;
+}
+
+.footer_item .list-unstyled > li a {
+    color: #fff;
+    float: left;
+}
+
+.footer_contact .fa {
+    margin-right: 10px;
+    text-align: center;
+    width: 15px;
+    float: left;
+    font-size: 18px;
+}
+.click-link{
+    color: #000000;
+
+font-weight: bold;
+
+font-size: 17px;
+}

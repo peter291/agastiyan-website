@@ -1,0 +1,18 @@
+<table style='margin: 10px;'>
+	<tr><td>Shoe Rack</td><td><select><option value='yes'>Yes</option><option value='no'>No</option></select></td><td>Width</td><td><input type='text' name='width'></td><td>Height</td><td><input type='text' name='width'></td><td>#Reference</td><td><input type='text' name='width'></td></tr>
+	<tr>
+		<td>Shape</td>
+		<td>
+			<select>
+				<option value='Straight'>Straight</option>
+			</select>
+		</td>
+	<tr>
+		<td>Options</td>
+			<td>
+				<select>
+					<option value='Top Ledge '>Top Ledge </option>
+				</select>
+			</td>
+	</tr>
+	</table><table style='margin: 10px;'><tr><td>Partition</td><td><select><option value='yes'>Yes</option><option value='no'>No</option></select></td><td>Width</td><td><input type='text' name='width'></td><td>Height</td><td><input type='text' name='width'></td><td>#Reference</td><td><input type='text' name='width'></td></tr></tr></table><table style='margin: 10px;'><tr><td>Design Element</td><td><select><option value='yes'>Yes</option><option value='no'>No</option></select></td><td>Width</td><td><input type='text' name='width'></td><td>Height</td><td><input type='text' name='width'></td><td>#Reference</td><td><input type='text' name='width'></td></tr><tr><td>Wall Options</td><td><select><option value='Stone Cladding'>Stone Cladding</option></select></td><tr><td>Highlight Options</td><td><select><option value='Portraits '>Portraits </option></select></td><tr><td>Options</td><td><select><option value='Drop Lights'>Drop Lights</option></select></td></tr></table><table style='margin: 10px;'><tr><td>False Ceiling</td><td><select><option value='yes'>Yes</option><option value='no'>No</option></select></td><td>Width</td><td><input type='text' name='width'></td><td>Height</td><td><input type='text' name='width'></td><td>#Reference</td><td><input type='text' name='width'></td></tr></tr></table><table style='margin: 10px;'><tr><td>Colour Theme</td><td><select><option value='yes'>Yes</option><option value='no'>No</option></select></td><td>Width</td><td><input type='text' name='width'></td><td>Height</td><td><input type='text' name='width'></td><td>#Reference</td><td><input type='text' name='width'></td></tr>

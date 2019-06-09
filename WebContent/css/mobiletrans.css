@@ -1,0 +1,25 @@
+.custom-toggle {
+	margin:0px;
+	padding:0px;
+}
+
+.home-first-page #header-navigation-mobile {
+	position:relative;
+	display: none;
+}
+
+#header-navigation-mobile a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+} 
+
+.mobile-menu-logo {
+    
+}
+
+.mobile-menu-bar {
+	display:none;	
+  	float: right;
+}

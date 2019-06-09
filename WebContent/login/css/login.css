@@ -1,0 +1,67 @@
+@font-face {
+  font-family:"pirulen";
+  src: url("pirulen_rg.ttf") format("truetype");
+}
+
+body {
+    background: #fff;
+    overflow: hidden;
+}
+
+.credentials {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.text-board {
+    padding: 14px;
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+    font-weight: 300;
+    color: #777474;
+    box-shadow: 0 0.2px 0.2px rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(118, 121, 132, 1); */
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+.ingot_link_oauth {
+    position: relative;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    display: inline-flex;
+    width: auto;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family:"pirulen";
+    color: #fff;
+    float: right;
+    background: rgb(32,30,30);;
+    border-radius: 21px;
+    cursor: pointer;
+}
+
+.ingot_btn_oauth {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-left: 5%;
+    margin-top: -5%;
+    margin-right: 2%;
+    margin-bottom: -5%;
+    color: #fff;
+}
+
+.oauth-error {
+	color: #fd0505;
+    visibility: hidden;
+    display: inline;
+}
+
+.warning-label {
+	color: #fd0505;
+}

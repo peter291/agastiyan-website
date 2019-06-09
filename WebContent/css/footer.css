@@ -1,0 +1,41 @@
+
+.footer {
+  background: #201e1e;
+  color: white;
+}
+
+.footer-logo {
+  margin: 20%;
+}
+
+img.footer-logo-image {
+  width: 150px;
+  height: 56px;
+}
+
+.footer-address {
+  padding: 30px;
+  line-height: 2;
+  text-align: center;
+}
+
+.footer-contact {
+  padding: 30px;
+  line-height: 2;
+  text-align: center;
+}
+
+.footer-social {
+  padding: 30px;
+  line-height: 2;
+  text-align: center;
+}
+
+.address-tittle, .contact-tittle {
+	text-align:center;
+}
+
+.address-head {
+  /* color: #fff212; */
+}
+

@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('font/ubuntu-r-webfont.woff2') format('woff2'), url('font/ubuntu-r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('font/ubuntu-l-webfont.woff2') format('woff2'), url('font/ubuntu-l-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: #ccc;
+    overflow: hidden;
+}
+
+.ingot_bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.ingot_logo {
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ingot_logo img {
+    width: 100%;
+}
+
+.ingot_link_iball {
+    position: relative;
+    margin-top: 15px;
+    left:15px;
+    width: 60px;
+    height: 80px;
+    background: #2f4f88;
+    cursor: pointer;
+}
+
+    .ingot_link_iball img {
+        position: absolute;
+        bottom: 30%;
+        left: 30%;
+        width: 40%;
+    }
+    
+     .ingot_btn_iball{
+        position: absolute;
+        bottom: 30%;
+        left: 20%;
+        width: 50%;
+    }
+
+.ingot_email {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron {
+	background-color: /*#eee*/ rgba(238, 238, 238, 0.0);
+}
+
+.ingot_at {
+    background: #cc3433;
+    width: 20%;
+    height: 45px;
+    float: left;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    font-family: 'ubuntulight';
+}
+
+.ingot_txt {
+    background: #222;
+    width: 80%;
+    float: left;
+    height: 45px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 0 20px;
+    border: 2px solid #fff;
+    border-left: 0;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #000;
+}
+
+    .ingot_txt::-webkit-input-placeholder {
+        color: #999;
+    }
+
+    .ingot_txt:-moz-placeholder {
+        color: #999;
+    }
+
+    .ingot_txt:-ms-placeholder {
+        color: #999;
+    }
+
+    .ingot_txt .placeholder {
+        color: #999;
+    }
+
+
+.loder_block_ingot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 999999;
+    min-height: 100%;
+    width: 100%;
+    display: none;
+}
+
+@media only screen and (min-width : 1680px) and (max-width : 1919px) {
+}
+
+@media only screen and (min-width : 1600px) and (max-width : 1679px) {
+}
+
+@media only screen and (min-width : 1440px) and (max-width : 1599px) {
+}
+
+@media only screen and (min-width : 1400px) and (max-width : 1439px) {
+}
+
+@media only screen and (min-width : 1366px) and (max-width : 1399px) {
+    .ingot_logo {
+        width: 30%;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ingot_email {
+        top: 60%;
+        left: 50%;
+        width: 30%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (min-width : 1360px) and (max-width : 1365px) {
+}
+
+@media only screen and (min-width : 1280px) and (max-width : 1359px) {
+    .ingot_logo {
+        width: 30%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ingot_email {
+        top: 60%;
+        left: 50%;
+        width: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ingot_at {
+        height: 45px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .ingot_txt {
+        font-size: 13px;
+        height: 45px;
+    }
+}
+
+@media only screen and (min-width : 1152px) and (max-width : 1279px) {
+    .ingot_logo {
+        width: 34%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ingot_email {
+        top: 60%;
+        left: 50%;
+        width: 20%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1151px) {
+    .ingot_logo {
+        width: 34%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ingot_email {
+        top: 60%;
+        left: 50%;
+        width: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ingot_at {
+        height: 35px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .ingot_txt {
+        font-size: 13px;
+        height: 35px;
+    }
+}
+
+@media (max-width:1023px) {
+}
+
+@media (max-width:992px) {
+    .ingot_logo {
+        width: 40%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 35px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .ingot_email {
+        top: 60%;
+        left: 50%;
+        width: 30%;
+        transform: translate(-50%, -50%);
+        font-size: 13px;
+        height: 35px;
+    }
+}
+
+@media (max-width:768px) {
+    .ingot_logo {
+        width: 60%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .ingot_email {
+        top: 60%;
+        left: 50%;
+        width: 40%;
+        transform: translate(-50%, -50%);
+        font-size: 13px;
+        height: 35px;
+    }
+}
+
+@media (max-width:500px) {
+	
+    .ingot_logo {
+        width: 70%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ingot_email {
+        top: 55%;
+        left: 50%;
+        width: 60%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width:400px) {
+   
+    .ingot_logo {
+        width: 80%;
+        top: 25%;
+    	left: 60%;
+        transform: translate(-50%, -50%);
+    }
+
+	.ingot_logo img {
+	    width: 75%;
+	}
+	 
+    .ingot_email {
+        top: 55%;
+        left: 50%;
+        width: 70%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ingot_at {
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .ingot_txt {
+        height: 40px;
+        font-size: 13px;
+    }
+}
